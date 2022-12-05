@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputEmail" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_marginLeft">105dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.Button.Rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.ImageButton.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="Button" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="strokeColor">@android:color/darker_gray</item>
+        <item name="android:textSize">16dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textColorHint">@color/blue</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+    </style>
+
+
+    <style name="ContainedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:backgroundTint">@color/royal_blue</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="CollapsingToolbarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="expandedTitleMarginStart">72dp</item>
+        <item name="expandedTitleMarginBottom">28dp</item>
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.App.CollapsingToolbar.Collapsed</item>
+        <item name="expandedTitleTextAppearance">@style/TextAppearance.App.CollapsingToolbar.Expanded</item>
+
+
+    </style>
+
+    <style name="ImageButton">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginLeft">280dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/image_login</item>
+    </style>
+
+    <style name="FloatingActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="srcCompat">@drawable/samokat</item>
+        <item name="borderWidth">10dp</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+
+    </style>
+
+    <style name="ImageStyle_Circle">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="TextViewHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextViewMainString">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    </style>
+
+</resources>

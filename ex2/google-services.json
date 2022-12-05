@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "610088472879",
+    "project_id": "educationalpractice-3c72a",
+    "storage_bucket": "educationalpractice-3c72a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610088472879:android:ef450abbc8d300f25e91da",
+        "android_client_info": {
+          "package_name": "com.example.educationalpractice_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610088472879-bi4cntn6pd05f10asism5prgkjem1mp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9oPIwLsi22QiPDN_4UDSWu6FnZy0X_yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610088472879-bi4cntn6pd05f10asism5prgkjem1mp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610088472879:android:d2141838717407715e91da",
+        "android_client_info": {
+          "package_name": "com.example.ex2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610088472879-bi4cntn6pd05f10asism5prgkjem1mp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9oPIwLsi22QiPDN_4UDSWu6FnZy0X_yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610088472879-bi4cntn6pd05f10asism5prgkjem1mp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
